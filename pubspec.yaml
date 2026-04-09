@@ -1,0 +1,58 @@
+name: spendiq
+description: Smart expense tracking with real-time SMS transaction sync using Supabase
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase - Real-time PostgreSQL database
+  supabase_flutter: ^2.3.4
+
+  # SMS handling
+  telephony: ^0.2.0
+
+  # Permissions
+  permission_handler: ^11.1.0
+
+  # Device info
+  device_info_plus: ^9.1.1
+
+  # Hashing
+  crypto: ^3.0.3
+
+  # State management
+  provider: ^6.1.1
+
+  # Shared preferences
+  shared_preferences: ^2.2.2
+
+  # Date formatting
+  intl: ^0.18.1
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#6C63FF"
+  adaptive_icon_foreground: "assets/logo.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
