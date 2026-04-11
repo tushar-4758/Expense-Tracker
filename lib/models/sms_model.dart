@@ -179,7 +179,7 @@ class SmsBatch {
 
 /// Real-time sync stats
 class SyncStats {
-  final int ;
+  final int totalSynced;
   final int transactionCount;
   final DateTime? lastSyncTime;
 
