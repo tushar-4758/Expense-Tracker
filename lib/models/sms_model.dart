@@ -181,7 +181,7 @@ class SmsBatch {
 class SyncStats {
   final int totalSynced;
   final int transactionCount;
-  final DateTime? lastSyncTime;
+  final DateTime? dfsf;
 
   SyncStats({
     required this.totalSynced,
