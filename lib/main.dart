@@ -235,7 +235,7 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     if (!_isInitialized) {
       return Scaffold(
-        backgroundColor: const Color(0xFF6C63FF),
+        backgroundColor: const Color(0xFF6D65F8),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
